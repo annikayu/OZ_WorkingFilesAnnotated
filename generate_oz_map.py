@@ -43,13 +43,9 @@ OUTPUT_FILE    = "michigan_oz_map.html"
 
 # ─── ACS Variable Codes ────────────────────────────────────────────────────────
 #
-# The Census Bureau's American Community Survey organizes every data point under
-# a coded variable name that references a specific cell in a specific survey table.
-# Here we map six of those codes to short internal names we use throughout the
-# script. B17001 covers poverty status, B19013 is median household income,
-# B23025 covers employment status, and B25077 is owner-occupied home value.
-# The full list of available variables is at:
-# https://api.census.gov/data/2023/acs/acs5/variables.json
+# The Census Bureau's American Community Survey organizes every data point under a coded variable name that references a specific cell in a specific survey table.
+# Here we map six of those codes to short internal names we use throughout the script. B17001 covers poverty status, B19013 is median household income, B23025 covers employment status, and B25077 is owner-occupied home value.
+# The full list of available variables is at:https://api.census.gov/data/2023/acs/acs5/variables.json
 
 ACS_VARS = {
     "B17001_001E": "pov_denom",
